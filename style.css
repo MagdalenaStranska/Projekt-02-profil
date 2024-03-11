@@ -14,8 +14,82 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
-
 body {
   background-color: #bdc3c7;
+  padding: 15px;
+  }
+
+.profil {
+  position: relative;
+  background-color: #31363b;
+  color: #b8c2cc;
+  max-width: 18em;
+  line-height: 1.5;
+  margin: 0;
+  box-shadow: black 4px 6px 20px;
 }
 
+.hlavicka {
+  position: relative;
+}
+
+.foto {
+  width: 18em;
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  position:absolute;
+  bottom: -20px;
+  right: 45px;
+}
+
+.obsah {
+  padding: 0px 25px 0px 25px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 550;  
+}
+
+.odkazy {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  }
+
+.obsah {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+ul li a {
+  color: #b8c2cc;
+  text-decoration: none;
+  font-weight: 550;
+      }
+
+li {
+  border: 1px solid #3f464d;
+  width: 18em;
+}
+
+.portfolio {
+  padding: 15px;  
+}
+
+.facebook,
+.twitter {
+  display: inline-block;
+  padding: 15px;   
+  width: 9em; 
+  }
+
+.portfolio:hover {background-color: #e74c3c;}
+.facebook:hover {background-color: #3b5998;}
+.twitter:hover {background-color: #1da1f2;}
